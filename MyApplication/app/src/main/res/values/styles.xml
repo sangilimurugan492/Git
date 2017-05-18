@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- App Base Theme. -->
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+    </style>
+
+
+    <!-- App Base no action bar Theme -->
+
+    <style name="AppTheme.Dialog.NoActionBar" parent="@style/AppTheme.Dialog.Base">
+    </style>
+
+
+    <!-- App Base Dialog Theme -->
+
+    <style name="AppTheme.Dialog.Base" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorButtonNormal">?colorAccent</item>
+        <item name="android:textColorLink">@color/accent</item>
+    </style>
+
+
+    <!-- App Base Compat Theme -->
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:textColorLink">@color/accent</item>
+        <item name="android:actionModeBackground">@color/primary</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorButtonNormal">?colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/accent</item>
+    </style>
+
+
+    <!-- App Base ActionBar Overlay -->
+
+    <style name="ActionBarThemeOverlay">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="colorControlHighlight">#3fff</item>
+    </style>
+
+
+    <style name="TextView.SectionHeader" parent="@android:style/Widget.TextView">
+        <item name="android:ellipsize">end</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--- Action Bar Title -->
+    <style name="ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <!-- Text Appearance Tab widget-->
+    <style name="TextAppearanceTabWidget">
+        <item name="android:textSize">?android:attr/textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/tab_indicator_text</item>
+    </style>
+
+</resources>
+

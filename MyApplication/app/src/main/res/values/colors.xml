@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ff6a00</color>
+    <color name="primary_dark">#e63a00</color>
+    <color name="accent">#ff9940</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="drawer_bg">#05c4bd</color>
+</resources>
+
